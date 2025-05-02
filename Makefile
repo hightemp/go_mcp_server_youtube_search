@@ -3,10 +3,10 @@
 all: build
 
 build:
-	go build -o go_mcp_server_mdurl main.go
+	go build -o go_mcp_server_youtube_search main.go
 
 run:
 	go run main.go
 
 clean:
-	rm -f go_mcp_server_mdurl
+	rm -f go_mcp_server_youtube_search

@@ -2,7 +2,7 @@
 
 A simple MCP (Model Context Protocol) server that provides tools for searching and retrieving information from YouTube videos. This server can be used with AI assistants that support the MCP protocol.
 
-Server url: `http://127.0.0.1:8889/sse`
+Server url: `http://localhost:8889/sse`
 
 ## Tools
 

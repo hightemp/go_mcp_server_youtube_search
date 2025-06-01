@@ -85,7 +85,7 @@ func youtubeSearchHandler(ctx context.Context, request mcp.CallToolRequest) (*mc
 		return nil, errors.New("query must be a string")
 	}
 
-	searchResult, err := youtubesearchapi.GetData(query, true, 5, nil)
+	searchResult, err := youtubesearchapi.GetData(query, true, 50, nil)
 	if err != nil {
 		log.Fatalf("Error getting data: %v", err)
 	}
